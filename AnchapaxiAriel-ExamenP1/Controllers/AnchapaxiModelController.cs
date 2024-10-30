@@ -46,6 +46,7 @@ namespace AnchapaxiAriel_ExamenP1.Controllers
         // GET: AnchapaxiModel/Create
         public IActionResult Create()
         {
+            ViewData["idPhone"] = new SelectList(_context.PhoneModel, "Id", "Model");
             return View();
         }
 

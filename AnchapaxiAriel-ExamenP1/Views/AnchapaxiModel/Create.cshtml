@@ -39,8 +39,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="idPhone" class="control-label"></label>
-                <input asp-for="idPhone" class="form-control" />
-                <span asp-validation-for="idPhone" class="text-danger"></span>
+                <select asp-for="idPhone" class="form-control" asp-items="ViewBag.idPhone"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

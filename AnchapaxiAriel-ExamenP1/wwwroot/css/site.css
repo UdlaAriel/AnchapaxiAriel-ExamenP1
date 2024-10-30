@@ -24,4 +24,20 @@ body {
 .meme-image {
     height: 300px;
     width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modal {
+    display: none;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
 }
